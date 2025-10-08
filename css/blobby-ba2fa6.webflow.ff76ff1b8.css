@@ -2095,16 +2095,16 @@ a {
 
 .body {
   background-color: var(--white-smoke);
-  background-image: url("images/backgroundbsc.jpg");
+  background-image: url("images/backgroundbsc.jpg?v=2");
   background-position: 50%;
-  background-size: auto;
+  background-size: cover;
   font-family: VT323, sans-serif;
   font-weight: 400;
 }
 
 .desktop-wrapper {
   background-color: var(--pale-goldenrod);
-  background-image: url("https://cdn.prod.website-files.com/66ce25e134341ef397733f38/66d3927390c223e4e5f85f32_download%20(1).gif"), url("images/backgroundbsc.jpg");
+  background-image: url("https://cdn.prod.website-files.com/66ce25e134341ef397733f38/66d3927390c223e4e5f85f32_download%20(1).gif"), url("images/backgroundbsc.jpg?v=2");
   background-position: 50%, 50%;
   background-repeat: no-repeat, no-repeat;
   background-size: cover, cover;
