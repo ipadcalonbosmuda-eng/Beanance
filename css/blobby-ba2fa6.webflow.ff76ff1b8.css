@@ -2094,21 +2094,22 @@ a {
 }
 
 .body {
-  background-color: #f5f5f5 !important;
-  background-image: none !important;
-  background-position: 50%;
+  background-color: #f5f5f5;
+  background-image: url("./images/newbackground.jpg") !important;
+  background-position: center;
   background-size: cover;
+  background-repeat: no-repeat;
   font-family: VT323, sans-serif;
   font-weight: 400;
 }
 
 .desktop-wrapper {
-  background-color: #f5f5f5 !important;
-  background-image: none !important;
-  background-position: 50%, 50%;
-  background-repeat: no-repeat, no-repeat;
-  background-size: cover, cover;
-  background-attachment: fixed, fixed;
+  background-color: #f5f5f5;
+  background-image: url("./images/newbackground.jpg") !important;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
   justify-content: center;
   align-items: center;
   width: 100vw;
